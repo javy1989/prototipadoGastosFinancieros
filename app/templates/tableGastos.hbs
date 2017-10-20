@@ -1,0 +1,28 @@
+<table class="bordered responsive-table">
+  <thead>
+  <tr>
+    <th>Categoria</th>
+    <th>SubCategoria</th>
+    <th>Fecha</th>
+    <th>Detalle</th>
+    <th>Valor</th>
+  </tr>
+  </thead>
+  <tbody>
+  {{#each gastost}}
+     <tr>
+       <td>{{categoria}}</td>
+       <td >
+         <select>
+           <option>Telefono</option>
+           <option>Cursos</option>
+           <option>Conbustible</option>
+         </select>
+       </td>
+       <td>{{fecha}}</td>
+       <td>{{detalle}}</td>
+       <td>{{valor}}</td>
+     </tr>
+  {{/each}}
+  </tbody>
+</table>

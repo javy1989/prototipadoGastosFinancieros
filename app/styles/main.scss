@@ -113,24 +113,11 @@
   height: auto !important;
 }
 
-.inputSlider{
-  height: auto!important;
-}
-.filterSliders{
-  .range-label{
-    background-color: grey!important;
-  }
-  .noUi-handle{
-    background-color: grey!important;
-  }
-}
-
-.searchFilter{
-  height: 40px!important;
-}
-.competitorKPI{
-  font-size: 26px;
-}
-.competitorTitle{
+.gastoTitle{
   font-size: 16px;
 }
+.dropdown-content li > span{
+  color: grey!important;
+}
+
+
