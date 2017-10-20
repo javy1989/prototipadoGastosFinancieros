@@ -1,1 +1,2 @@
-console.log('\'Allo \'Allo!');
+var footer = document.querySelector('#footer');
+footer.innerHTML=PriceApp.footer();
